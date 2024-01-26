@@ -1,0 +1,88 @@
+/* HEADER header */
+
+body {
+  font-family: sans-serif;
+  background-color: rgb(244, 241, 241);
+}
+/* HEADER */
+header {
+  background-color: rgb(34 34 104);
+}
+header img {
+  width: 10rem;
+  padding: 0.5rem 1.3rem;
+}
+header .headerlink {
+  padding: 0.5rem 0;
+  background-color: #27278b;
+}
+
+header .headerlink p a {
+  color: white;
+  padding: 1rem;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+/* MAIN */
+
+/* TITOLI */
+
+.title1 {
+  background-color: #f3830f;
+  text-align: center;
+  color: white;
+  margin: 2rem 1rem;
+  padding: 1rem;
+}
+
+.title2 {
+  background-image: url("../Amazon Page/assets/images/bg-image.png");
+  background-size: cover;
+  margin: 1.9rem 1rem;
+  padding: 3rem;
+  text-align: center;
+  line-height: 2.6rem;
+  color: white;
+}
+
+.title2 h3 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.title p {
+  font-weight: bold;
+}
+.div-immages {
+  display: inline-block;
+  margin: 1rem;
+  background-color: white;
+
+  white-space: nowrap;
+}
+.images {
+  border-radius: 1rem;
+  margin: 0.5rem;
+  height: 380px;
+  width: 23.8%;
+  object-fit: cover;
+}
+.div-immages p,
+.bigimg p {
+  padding: 1rem;
+}
+.div-immages p a,
+.bigimg p a {
+  color: blue;
+  text-decoration: none;
+  margin-left: 0.5rem;
+  font-weight: bold;
+  font-size: small;
+}
+
+.bigimg {
+  margin: 1rem;
+  text-align: center;
+}
+.bigimg img {
+  object-fit: cover;
+}
