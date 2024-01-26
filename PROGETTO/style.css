@@ -52,6 +52,7 @@ header .headerlink p a {
 .title p {
   font-weight: bold;
 }
+/* IMMAGINI */
 .div-immages {
   display: inline-block;
   margin: 1rem;
@@ -85,4 +86,24 @@ header .headerlink p a {
 }
 .bigimg img {
   object-fit: cover;
+  width: 100%;
+}
+
+/* FOOTER */
+.backtotop {
+  text-align: center;
+  background-color: #27278b;
+  padding: 1rem;
+}
+.backtotop p a {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(34 34 104);
+  padding: 3rem;
+}
+footer img {
+  width: 13rem;
 }
