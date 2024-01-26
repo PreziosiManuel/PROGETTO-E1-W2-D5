@@ -75,6 +75,23 @@ let newCar = {
 
 carss.push(newCar);
 console.log("Ex 6: ", carss);
+
+for (let i = 0; i < carss.length; i++) {
+  let auto = carss[i];
+  if (auto.trims.length > 0) {
+    auto.trims.pop();
+  }
+}
+console.log(carss);
+
+// for (i = 0; i < cars.trims.length; i++) {
+//   let auto = cars[i];
+//   if (auto.trims.length > 0) {
+//     auto.trims.pop();
+//   }
+// }
+// console.log(cars);
+
 /* ESERCIZIO 7
     Scrivi del codice per salvare il primo elemento della proprietà "trims" di ogni auto nel nuovo array "justTrims", sotto definito.
 */
